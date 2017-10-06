@@ -1,0 +1,19 @@
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Handlee', cursive;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Marcellus', serif;
+font-family: 'Fauna One', serif;
+font-family: 'Sue Ellen Francisco', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Tenor Sans', sans-serif;
+font-family: 'Megrim', cursive;
+font-family: 'Italiana', serif;
+
+
+
+
