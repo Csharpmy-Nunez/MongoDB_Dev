@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Sore</title>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="main.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Cinzel+Decorative|Comfortaa|Fauna+One|Handlee|Italiana|Josefin+Sans|Marcellus|Megrim|Open+Sans+Condensed:300|Orbitron|Philosopher|Sue+Ellen+Francisco|Syncopate|Tenor+Sans" rel="stylesheet">
+
+<link href="public/css/main.css" rel="stylesheet" />
+</head>
+<body onload = "getBooks()">
+ 
+  <div class="container"></br>
+   <h2 class="text-center">Add a new book </h2></br>
+
+   <form id="add-book">
+      <div class="form-group">
+        <label>Book Tittle</label>
+        <input type="text" id="title" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label>Category</label>
+        <input type="text" id="category" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label>Excerpt</label>
+        <input type="text" id="excerpt" class="form-control">
+      </div>
+      <input type="submit" name="submit" value="Add Book" class="btn btn-primary">
+   </form>
+    <br />
+    <hr />
+    <div class="row">
+         <div id="books"></div>
+    </div>
+  </div>
+</body>
+
+</html>
